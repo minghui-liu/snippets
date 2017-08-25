@@ -8,14 +8,15 @@ call vundle#begin()
 " let Vundle manager Vundle, required
 Plugin 'gmarik/Vundle.vim'
 " add all your plugins here
-Plugin 'tmhedberg/SimpylFold'
+" Plugin 'tmhedberg/SimpylFold'
 Plugin 'tpope/vim-fugitive'
+" airline status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+" nerd tree file browser
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'vim-scripts/indentpython.vim'
-
+" Plugin 'vim-scripts/indentpython.vim'
 
 " all plugins must be added before this line
 call vundle#end()
